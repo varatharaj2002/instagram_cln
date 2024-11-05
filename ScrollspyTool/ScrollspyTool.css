@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Center align the center box */
+    position: relative;
+    height: 100vh; /* Full viewport height */
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.left {
+    position: fixed;
+    left: 0;
+    background-color: #3498db;
+}
+
+.center {
+    background-color: #e74c3c;
+    z-index: 1; /* Ensure it appears above the fixed boxes */
+}
+
+.right {
+    position: fixed;
+    right: 0;
+    background-color: #2ecc71;
+}

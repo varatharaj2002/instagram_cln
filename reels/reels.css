@@ -1,0 +1,72 @@
+
+
+
+.main-con{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+    /* margin: auto; */
+}
+
+/* .reels-con */
+.reels-con{
+    height: 500px;
+    width: 420px;
+    border: 1px solid black;
+    display: flex;
+    margin: auto;
+}
+
+/* reels */
+.reels{
+    height: 500px;
+    width: 355px;
+    border: 1px solid rgb(114, 92, 92);
+}
+
+/* feed-sec */
+.feed-sec{
+    height: 500px;
+    width: 61px;
+    border: 1px solid rgb(190, 159, 159);
+    position: relative;
+    margin: auto;
+}
+
+/* icons */
+.icons{
+    display: grid;
+    /* padding-bottom: 50px; */
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+}
+
+.fa {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+
+/* reels-profile */
+.reels-profile{
+    height: 52px;
+    width: 52px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-image: url(../images/bugatti.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.like-cmd{
+    margin: auto;
+}
+.mm{
+    margin: auto;
+}

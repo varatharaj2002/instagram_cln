@@ -1,0 +1,91 @@
+.search-main-container {
+  width: 355px;
+  height: 618px;
+  /* border: 1px solid; */
+}
+.h1 {
+  padding-left: 20px;
+}
+.box {
+  padding-left: 20px;
+  position: relative;
+}
+.search-bor {
+  width: 90%;
+  height: 30px;
+  background-color: #64636347;
+  border: none;
+  border-radius: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+.close-curcle {
+  position: absolute;
+  right: 45px;
+  top: 8px;
+}
+.profiles-search-box {
+  width: 100%;
+  height: 500px;
+  /* border: 1px solid #aaa9a9; */
+  margin-top: 2rem;
+}
+.profiles-boxs {
+  width: 100%;
+  height: 62px;
+  /* border: 1px solid; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  position: relative;
+}
+.profiles-boxs-img {
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid; */
+  border-radius: 25px;
+  position: absolute;
+  left: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img1 {
+  background-image: url(../images/superaa.png);
+}
+.img2 {
+  background-image: url(../images/bugatti-images.png);
+}
+.img3 {
+  background-image: url(../images/tesla.png);
+}
+.img4 {
+  background-image: url(../images/emirats.png);
+}
+.img5 {
+  background-image: url(../images/Disc_Plain_black.svg.png);
+}
+.img6 {
+  background-image: url(../images/blue.jpg);
+}
+.img7 {
+  background-image: url(../images/spacex.png);
+}
+.img8 {
+  background-image: url(../images/cristiano.png);
+}
+.name-name {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 85px;
+}
+.profiles-boxs-name {
+  font-weight: 700;
+}
+.close {
+  position: absolute;
+  right: 10px;
+  max-height: 5px;
+  max-width: 5px;
+}

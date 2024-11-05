@@ -1,0 +1,83 @@
+.maincontainer {
+  width: 200px;
+  /* border: 1px solid; */
+}
+.instagram-img {
+  background-image: url(http://127.0.0.1:5501/images/instaimg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  height: 46px;
+  width: 143px;
+  margin-left: 10px;
+}
+.navigation-bar {
+}
+.Home-btns {
+  height: 50px;
+  border: none;
+  background-color: transparent;
+}
+.icons {
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  font-size: 30px;
+}
+.reels {
+  background-image: url(../images/instagram-reels-logo-18CF7D9510-seeklogo.com.png);
+  height: 3px;
+  width: 3px;
+  /* border: 1px solid; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 16px;
+  margin-left: 11px;
+}
+.facebook {
+  background-image: url(../images/iconmonstr-facebook-messenger-1.png);
+  height: 4px;
+  width: 4px;
+  /* border: 1px solid; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 17px;
+  margin-left: 9px;
+}
+.creat {
+  background-image: url(../images/creat.png);
+  height: 5px;
+  width: 5px;
+  /* border: 1px solid; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.profile {
+  background-image: url(../images/avcnvu42l.webp);
+  height: 5px;
+  width: 5px;
+  /* border: 1px solid; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 14px;
+  margin-left: 11px;
+}
+.Bar {
+  margin-left: 10px;
+  display: flex;
+  width: 200px;
+  border-radius: 10px;
+  align-items: center;
+}
+.Bar:hover {
+  background-color: rgb(219, 239, 248);
+}
+.More {
+  margin-top: 2rem;
+}

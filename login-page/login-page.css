@@ -1,0 +1,156 @@
+* {
+  font-family: sans-serif;
+}
+.total-page {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.main-container {
+  width: 350px;
+  height: 410px;
+  border: 0.3px solid rgba(201, 198, 198, 0.83);
+  margin: auto;
+}
+.insta-img {
+  background-image: url(https://www.pngitem.com/pimgs/m/132-1327993_instagram-logo-word-png-transparent-png.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 61%;
+  height: 69px;
+  margin: auto;
+}
+.insta-logo {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.username {
+  width: 260px;
+  height: 36px;
+  background-color: rgb(250, 250, 250);
+  border: 0.3px solid rgba(201, 198, 198, 0.83);
+  padding-left: 10px;
+}
+.password {
+  width: 260px;
+  height: 36px;
+  background-color: rgb(250, 250, 250);
+  border: 0.3px solid rgba(201, 198, 198, 0.83);
+  padding-left: 10px;
+}
+.input-type {
+  width: 100%;
+  height: 45px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-type:hover {
+  cursor: pointer;
+}
+.login-btn {
+  width: 270px;
+  height: 36px;
+  border: none;
+  background-color: rgb(12, 178, 255);
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 750;
+}
+.or {
+  display: flex;
+  gap: 10px;
+  color: #999;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+.facebook-text {
+  color: rgb(56, 81, 133);
+  font-weight: 600;
+  font-size: 14px;
+}
+.Forgot-Password {
+  font-size: 12px;
+  color: rgb(69 102 116);
+}
+/*  */
+/*  */
+.box2 {
+  padding: 15px;
+}
+.signUp-box {
+  width: 350px;
+  height: 63px;
+  border: 0.3px solid rgba(201, 198, 198, 0.83);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.sign-btn {
+  border: none;
+  color: rgb(12, 178, 255);
+  background: transparent;
+  font-weight: 750;
+}
+.sign-btn:hover {
+  cursor: pointer;
+}
+/*  */
+.get-the-app {
+  width: 350px;
+  height: 95px;
+  /* border: 1px solid; */
+  margin: auto;
+}
+.app {
+  height: 30px;
+  width: 100%;
+  /* border: 1px solid; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  font-size: 15px;
+}
+.playstore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.playstore:hover {
+  cursor: pointer;
+}
+.img1 {
+  background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png);
+  height: 200px;
+  width: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.img2 {
+  background-image: url(https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png);
+  height: 202px;
+  width: 125px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Sign_up {
+  text-decoration: none;
+  color: rgb(12, 178, 255);
+}
+.forgot_pwd
+{
+  text-decoration: none;
+  color: black;
+}

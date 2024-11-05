@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup Example</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+    }
+    
+    button {
+        margin: 20px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .popup {
+        display: none; /* Hidden by default */
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 10;
+    }
+    
+    .popup.active {
+        display: block;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <button class="popup-btn">Button 1</button>
+    <button class="popup-btn">Button 2</button>
+    <button class="popup-btn">Button 3</button>
+    <button class="popup-btn">Button 4</button>
+
+    <div class="popup">This is a popup!</div>
+
+    <script>
+      // Get all the buttons with class 'popup-btn'
+const buttons = document.querySelectorAll('.popup-btn');
+
+// Get the popup element
+const popup = document.querySelector('.popup');
+
+// Loop through each button and add click event listener
+buttons.forEach(button => {
+    button.addEventListener('click', function(event) {
+        // Get the button's position relative to the page
+        const buttonRect = button.getBoundingClientRect();
+
+        // Toggle the popup visibility
+        if (popup.classList.contains('active')) {
+            popup.classList.remove('active');
+        } else {
+            popup.classList.add('active');
+
+            // Position the popup at the right corner of the button
+            popup.style.top = `${buttonRect.bottom}px`;
+            popup.style.left = `${buttonRect.right}px`;
+        }
+    });
+});
+
+// Close popup when clicking outside
+document.addEventListener('click', function(event) {
+    // If the click is not on a button or inside the popup, close the popup
+    if (!event.target.closest('.popup-btn') && !event.target.closest('.popup')) {
+        popup.classList.remove('active');
+    }
+});
+
+    </script>
+</body>
+</html>

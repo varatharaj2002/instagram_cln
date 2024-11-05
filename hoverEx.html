@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="explore_box explore_box1">
+        <div class="overlay">
+            <div class="explore_icons">
+                <!-- Initially displaying the outlined heart icon -->
+                <i class="fa fa-heart-o heart-icon" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+<script>
+    // Get the heart icon element
+const heartIcon = document.querySelector('.heart-icon');
+
+// Add click event listener
+heartIcon.addEventListener('click', function() {
+    // Toggle between the outlined heart (fa-heart-o) and filled heart (fa-heart)
+    if (heartIcon.classList.contains('fa-heart-o')) {
+        // If it's the outlined heart, change it to filled heart and make it red
+        heartIcon.classList.remove('fa-heart-o');
+        heartIcon.classList.add('fa-heart');
+        heartIcon.style.color = 'red';
+    } else {
+        // If it's the filled heart, change it back to outlined heart
+        heartIcon.classList.remove('fa-heart');
+        heartIcon.classList.add('fa-heart-o');
+        heartIcon.style.color = ''; // Reset to default color (white)
+    }
+});
+
+</script>    
+</body>
+</html>

@@ -1,0 +1,206 @@
+.home_page {
+  z-index: 1;
+  position: relative;
+  height: 100vh;
+  left: 192px;
+}
+/* main-container */
+.main-container {
+  border: 1px solid black;
+}
+
+/* header-sec */
+.header-section {
+  height: 130px;
+  /* width: 800px; */
+  /* border: 1px solid black; */
+}
+
+/* header-sec */
+
+/* story */
+.story-section {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 13px;
+  cursor: pointer;
+}
+.box-post-section {
+  height: 50px;
+  width: 50px;
+  border: 3px solid red;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* box */
+.box {
+  height: 65px;
+  width: 65px;
+  border: 3px solid red;
+  border-radius: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.storybox1 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/9.jpg);
+}
+.storybox2 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/10.jpg);
+}
+.storybox3 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/11.jpg);
+}
+.storybox4 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/15.jpg);
+}
+.storybox5 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/3.jpg);
+}
+.storybox6 {
+  background-image: url(https://preview.colorlib.com/theme/sunzine/img/portfolio/14.jpg);
+}
+.storybox7 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/8.jpg);
+}
+.storybox8 {
+  background-image: url(https://preview.colorlib.com/theme/photographer/img/portfolio/23.jpg);
+}
+
+/* box1 */
+.profile-box1 {
+  background-image: url(../images/condo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-box2 {
+  background-image: url(../images/condo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-box3 {
+  background-image: url(../images/profileimg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-box4 {
+  background-image: url(../images/condo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile-box5 {
+  background-image: url(../images/condo3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* story-name */
+.story-name {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+/* <---------------------------------------------------------------------------------------------> */
+
+/* post-sec */
+.post-section {
+  /* height: 1000px; */
+  width: 560px;
+  /* border: 1px solid black; */
+  display: grid;
+  /* padding: 50px 20px; */
+  /* display: flex; */
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+/* post-name */
+.post-name {
+  display: flex;
+  height: 85px;
+  width: 550px;
+  /* border: 1px solid black; */
+  padding: 5px 5px;
+  gap: 20px;
+}
+
+/* post */
+.post {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 550px; */
+  /* border: 1px solid black; */
+}
+
+/* postimage*/
+.postimage1 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_4.jpg);
+}
+.postimage2 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_5.jpg);
+}
+.postimage3 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_1.jpg);
+}
+.postimage4 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_6.jpg);
+}
+.postimage5 {
+  background-image: url(https://preview.colorlib.com/theme/shutter/images/img_7.jpg);
+}
+
+/* like */
+.icon-section {
+  height: 200px;
+  /* border: 1px solid black; */
+}
+
+/* like-box */
+.icon-box {
+  display: flex;
+  height: 50px;
+  /* border: 1px solid black; */
+  justify-content: space-between;
+  /* gap: 40px; */
+}
+
+.icons {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  /* padding: 0px 0px; */
+  cursor: pointer;
+}
+
+.fa {
+  font-size: 20px;
+  align-items: center;
+}
+
+.command-section {
+  display: grid;
+  grid-auto-rows: 30px;
+}
+
+/* add-command */
+.add-command {
+  border: none;
+}
+
+/* view-command */
+.view-command {
+  color: rgb(139, 117, 139);
+  font-weight: 100;
+}
+
+.prf-name {
+  display: grid;
+  grid-auto-rows: 30px;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,228 @@
+/* main-container */
+.profilePage_main-container {
+  /* height: 10000px; */
+  width: 70%;
+  /* border: 1px solid black; */
+}
+
+/* header-section */
+.profilePage_header-section {
+  /* height: 400px; */
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+/* profile */
+.profilePage_profile {
+  display: flex;
+}
+
+/* profile-image */
+.profile-image {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  width: 600px;
+  /* border: 1px solid black; */
+}
+
+/* pro-image */
+.pro-image {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 120px;
+  margin: auto;
+  background-image: url(https://preview.colorlib.com/theme/capture/images/image_9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* profile-information */
+.profile-information {
+  /* display: flex; */
+  /* height: 250px; */
+  width: 75%;
+  /* border: 1px solid black; */
+  display: grid;
+  /* justify-content: center; */
+  /* margin-top: 10px; */
+}
+
+/* profile-head */
+.profile-head {
+  display: flex;
+  /* justify-content: center; */
+  /* margin: auto; */
+  align-items: center;
+  gap: 10px;
+}
+
+/* pro-name */
+.pro-name {
+  /* margin: auto; */
+  font-family: system-ui;
+}
+/* profile-button */
+.profile-button {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* id-info */
+.id-info {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* profile-id */
+.profile-id {
+  margin-bottom: 50px;
+}
+
+/* highlights */
+.highlights-main {
+  /* height: 148px; */
+  width: 100%;
+  /* display: flex; */
+  /* border: 1px solid black; */
+  /* margin: auto; */
+}
+
+/* highlights-section */
+.highlights-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* margin: auto; */
+  margin-top: 10px;
+}
+
+/* box */
+.profilePage_box {
+  margin: auto;
+  height: 80px;
+  width: 80px;
+  border: 3px solid rgb(247, 236, 236);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* highlights-img */
+.highlights-img {
+  background-image: url(https://preview.colorlib.com/theme/capture/images/image_6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* highlights-name */
+.highlights-name {
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* icon-box */
+.profilePage_icon-section {
+  /* height: 80px; */
+  width: 100%;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+/* icon-box */
+.profilePage_icon-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+/* post-images */
+.post-section {
+  width: 100%;
+  /* height: 200px; */
+  /* border: 1px solid black; */
+}
+
+/* post */
+.profilePage_post {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+/* post-box */
+.post-box {
+  height: 200px;
+  /* border: 1px solid black; */
+}
+
+/* post-images */
+
+.post-img1 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img2 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img3 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img4 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img5 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img6 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.post-img7 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port9.png);
+  background-size: cover;
+}
+.post-img8 {
+  background-image: url(https://preview.colorlib.com/theme/cocoon/assets/img/portfolio/home-port3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* footer-section */
+.profilePage_footer-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+/* .footer{
+   
+} */
+
+/* footer-text */
+.profilePage_footer-text {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  color: rgb(139, 117, 139);
+}
